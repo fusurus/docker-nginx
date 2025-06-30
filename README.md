@@ -23,6 +23,8 @@
     docker cp nginx:/etc/nginx/conf.d /home/nginx/conf/conf.d
     # 将容器中的html文件夹复制到宿主机
     docker cp nginx:/usr/share/nginx/html /home/nginx/
+    # 讲容器中的html文件夹复制到宿主机
+    docker cp nginx:/etc/nginx/certs /home/nginx/certs
 
 # 申请证书
 
